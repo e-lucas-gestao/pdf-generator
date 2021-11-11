@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+      function printDocument() {
+          window.print();
+      }
+      printDocument()
+  </script>
+</head>
+<body>
+  <div >
+  <img src="https://www.gestaoerh.com.br/conteudo/publicacoes/7b0ac441d04062cb7ba67fa1df079796061c1e8a.jpg"/>
+  <img src="http://s.profissionaisti.com.br/wp-content/uploads/2012/09/qr-code-profissionais-ti.png" alt="" srcset=""/>
+    <p>
+      Dado 1<br>
+      Dado 2<br>
+      Dado 3<br>
+      Dado 4<br>
+    </p>
+    <p>
+      Dado 1<br>
+      Dado 2<br>
+      Dado 3<br>
+      Dado 4<br>
+    </p>
+  </div>
+
+  <p style="page-break-after: always;">&nbsp;</p>
+
+  <div>
+  <img src="https://www.gestaoerh.com.br/conteudo/publicacoes/7b0ac441d04062cb7ba67fa1df079796061c1e8a.jpg"/>
+  <img src="http://s.profissionaisti.com.br/wp-content/uploads/2012/09/qr-code-profissionais-ti.png" alt="" srcset=""/>
+    <p>
+      Dado 1<br>
+      Dado 2<br>
+      Dado 3<br>
+      Dado 4<br>
+    </p>
+    <p>
+      Dado 1<br>
+      Dado 2<br>
+      Dado 3<br>
+      Dado 4<br>
+    </p>
+  </div>
+  
+</body>
+</html>
+
+<style>
+  body {
+    display: block;
+    width: 600px;
+  }
+  div {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    border: black solid 1px;
+  }
+  img{
+    width: 250px;
+  }
+</style>
